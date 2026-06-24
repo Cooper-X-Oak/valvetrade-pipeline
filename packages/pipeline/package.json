@@ -1,0 +1,12 @@
+{
+  "name": "@valvetrade/pipeline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "@valvetrade/db": "workspace:*",
+    "@valvetrade/domain": "workspace:*",
+    "fuzzball": "^2.1.3"
+  }
+}
